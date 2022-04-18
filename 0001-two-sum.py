@@ -33,4 +33,4 @@ def twoSum(nums: List[int], target: int) -> List[int]:
             return [i, complement[num]]
 
 
-print(twoSum([2, 7, 11, 15], 9))
+assert twoSum([2, 7, 11, 15], 9) == [0, 1]
